@@ -31,6 +31,6 @@ login-project/
 │   │   ├── logout.js
 │   │   └── forgot-password.js
 │   └── img/
-│       └── README.txt
+
 
 
