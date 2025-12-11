@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>여행 플랫폼 메인</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div>
+          <span class="brand-label fw-semibold me-2">여담</span>
+          <span id="user-name" class="topbar-username"></span>
+        </div>
+        <a id="logout-btn" class="logout-link text-decoration-none" href="#">로그아웃</a>
+      </div>
+    </header>
+
+    <section class="hero-split">
+      <div class="hero-overlay">
+        <div class="hero-copy">
+          <p class="brand-label fw-semibold mb-2">여행 플랫폼</p>
+          <h1 class="auth-title mb-2">여담</h1>
+          <p class="auth-subtitle small">
+            여정을 기록하고, 다음 여행을 발견하세요.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="destinations">
+      <div class="container">
+        <div class="text-center mb-4">
+          <p class="brand-label fw-semibold mb-1">추천 여행지</p>
+          <h2 class="auth-title mb-1">어디로 떠나볼까요?</h2>
+          <p class="text-muted small">
+            인기 목적지 3곳을 둘러보세요.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="dest-card">
+              <div class="dest-thumb thumb-1"></div>
+              <div class="dest-body">
+                <h5 class="mb-1">파리, 프랑스</h5>
+                <p class="small text-muted mb-0">센 강 야경과 루브르의 감성.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="dest-card">
+              <div class="dest-thumb thumb-2"></div>
+              <div class="dest-body">
+                <h5 class="mb-1">교토, 일본</h5>
+                <p class="small text-muted mb-0">아라시야마와 전통 거리 산책.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="dest-card">
+              <div class="dest-thumb thumb-3"></div>
+              <div class="dest-body">
+                <h5 class="mb-1">바르셀로나, 스페인</h5>
+                <p class="small text-muted mb-0">가우디 건축과 지중해 감성.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
+
+
